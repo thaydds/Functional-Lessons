@@ -1,0 +1,22 @@
+{
+  "name": "functional-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compose.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaydds/Functional-Lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaydds/Functional-Lessons/issues"
+  },
+  "homepage": "https://github.com/thaydds/Functional-Lessons#readme",
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}

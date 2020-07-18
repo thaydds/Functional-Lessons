@@ -48,3 +48,15 @@ const compose = (...fns) => (x) => fns.reduce((y, f) => f(y), x);
 const doStuffBetter = compose(g, trace("after g"), f, trace("after f"));
 
 doStuffBetter(2);
+
+// Composing objects
+
+const a = {
+  a: "a",
+};
+
+const b = {
+  b: "b",
+};
+
+const c = { ...a, ...b }; // {a: 'a', b: 'b'}
